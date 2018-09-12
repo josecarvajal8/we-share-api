@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/SemilleroAlmundo/gym-tony.git"
+    "url": "git+https://github.com/josecarvajal8/we-share-api.git"
   },
   "keywords": [
     "dev",
@@ -26,7 +26,7 @@
   "author": "Jose Carvajal <jcarvajal373@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/SemilleroAlmundo/gym-tony/issues"
+    "url": "https://github.com/josecarvajal8/we-share-api/issues"
   },
   "homepage": "https://gitlab.com/SemilleroAlmundo/gym-tony#README",
   "dependencies": {
