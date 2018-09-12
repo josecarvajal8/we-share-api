@@ -1,6 +1,10 @@
-import express from 'express'
-const app = express()
-app.get('/', (req, res) => {
-    res.send('Hello world')
-})
-app.listen(3000, () => console.log('running on port 3000'))
+import InfraWeb from './core/infra-web'
+export default class Server extends InfraWeb {
+    constructor() {
+        super()
+    }
+    public static bootstrap(): Server {
+        return new Server
+    }
+}
+Server.bootstrap().startServer()
