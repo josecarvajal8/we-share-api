@@ -1,17 +1,18 @@
+import { Controller } from './controller'
 export const Entrance: any = {
     index: {
         verb: 'get',
         endPoint: '/',
-        handler: console.log('hello world')
+        handler: Controller.home
     },
     createEntrance: {
         verb: 'post',
         endPoint: '/newEntrance',
-        handler: console.log('hello new')
+        handler: Controller.createEntrance
     },
     getEntrances: {
         verb: 'get',
         endPoint: '/entrance',
-        handler: console.log('I will send u')
+        handler: Controller.entrances
     }
 }
